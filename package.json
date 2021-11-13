@@ -1,0 +1,16 @@
+{
+  "name": "friday-pizza-bot",
+  "version": "1.0.0",
+  "description": "Телеграм бот для создания пятничных опросов по пицце",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --experimental-specifier-resolution=node index.js"
+  },
+  "author": "Lev Kaplunov <lev.kaplunov@yandex.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
