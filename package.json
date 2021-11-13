@@ -4,7 +4,7 @@
   "description": "Телеграм бот для создания пятничных опросов по пицце",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --experimental-specifier-resolution=node index.js"
+    "dev": "nodemon --experimental-specifier-resolution=node index.js",
     "start": "node --experimental-specifier-resolution=node index.js"
   },
   "author": "Lev Kaplunov <lev.kaplunov@yandex.ru>",

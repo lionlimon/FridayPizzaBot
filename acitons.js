@@ -20,6 +20,5 @@ export async function createPoll(chatId) {
 		open_period: POLL_TIMEOUT
 	});
 
-	console.log('RESULTS', mainResult, additionalResult);
 }
 
