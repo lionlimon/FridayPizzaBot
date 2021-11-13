@@ -1,6 +1,4 @@
 import TelegramBot from 'node-telegram-bot-api';
-import {POLL_TIMEOUT, TOKEN} from './config';
-import {ADDITIONAL_POLL_TEXT, MAIN_POLL_TEXT, START_TEXT} from "./lang";
 import {createPoll} from "./acitons";
 
 
