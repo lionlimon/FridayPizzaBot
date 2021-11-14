@@ -10,8 +10,12 @@
   "author": "Lev Kaplunov <lev.kaplunov@yandex.ru>",
   "license": "ISC",
   "dependencies": {
+    "mysql2": "^2.3.3",
+    "node-schedule": "^2.0.0",
     "node-telegram-bot-api": "^0.54.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.9.0",
+    "node-cron": "^3.0.0"
   },
   "type": "module"
 }

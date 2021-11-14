@@ -2,6 +2,7 @@ import {ADDITIONAL_POLL_TEXT, MAIN_POLL_TEXT} from "./lang";
 import {additionalPoll, mainPoll} from "./poll";
 import {POLL_TIMEOUT} from "./config";
 import {bot} from "./index";
+import {Group} from "./models/Group";
 
 
 /**
@@ -22,3 +23,12 @@ export async function createPoll(chatId) {
 
 }
 
+
+export async function saveChatID(chatId) {
+	await Group.findOrCreate({where: {chatId}});
+}
+
+export async function removeChatID(chatId) {
+	let chat = await Group.findOne({where: {chatId}});
+	if (chat) chat.destroy();
+}
