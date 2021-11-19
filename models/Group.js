@@ -7,3 +7,4 @@ export const Group = sequelize.define('Group', {
 	id: { type: DataTypes.INTEGER, primaryKey: true, unique: true, autoIncrement: true },
 	chatId: { type: DataTypes.STRING, primaryKey: true, unique: true },
 });
+

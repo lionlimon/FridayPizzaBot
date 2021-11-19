@@ -43,6 +43,12 @@ bot.onText(/\/start/, (msg) => {
 	bot.sendMessage(chatId, START_TEXT);
 });
 
+bot.onText(/\/poll/, async (msg) => {
+	const chatId = msg.chat.id;
+
+	await createPoll(chatId);
+});
+
 bot.onText(/\/aboba/, async (msg) => {
 	await createPoll(msg.chat.id);
 });

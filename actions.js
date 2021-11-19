@@ -11,14 +11,13 @@ import {Group} from "./models/Group";
  * @param {number} chatId
  */
 export async function createPoll(chatId) {
-	const mainResult = await bot.sendPoll(chatId, MAIN_POLL_TEXT, mainPoll, {
+	await bot.sendPoll(chatId, MAIN_POLL_TEXT, mainPoll, {
 		is_anonymous: false,
-		open_period: POLL_TIMEOUT
+		allows_multiple_answers: true
 	});
 
-	const additionalResult = await bot.sendPoll(chatId, ADDITIONAL_POLL_TEXT, additionalPoll, {
+	await bot.sendPoll(chatId, ADDITIONAL_POLL_TEXT, additionalPoll, {
 		is_anonymous: false,
-		open_period: POLL_TIMEOUT
 	});
 
 }
@@ -32,3 +31,4 @@ export async function removeChatID(chatId) {
 	let chat = await Group.findOne({where: {chatId}});
 	if (chat) chat.destroy();
 }
+

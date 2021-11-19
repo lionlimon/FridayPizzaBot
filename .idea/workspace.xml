@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acitons.js" beforeDir="false" afterPath="$PROJECT_DIR$/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/lang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Group.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poll.js" beforeDir="false" afterPath="$PROJECT_DIR$/poll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -67,6 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1636792561841</updated>
       <workItem from="1636792563132" duration="9875000" />
+      <workItem from="1637292071896" duration="1087000" />
+      <workItem from="1637296331561" duration="386000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил команду в конфигурацию">
       <created>1636805072649</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636805153045</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавлено взаимодействие с БД&#10;- удаляется и сохраняется id чата при удалении/добавлении бота в группу &#10;&#10;Добавлен крон, который создаёт опросы">
+      <created>1636878915626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636878915626</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил команду в конфигурацию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил команду в конфигурацию" />
+    <MESSAGE value="Добавлено взаимодействие с БД&#10;- удаляется и сохраняется id чата при удалении/добавлении бота в группу &#10;&#10;Добавлен крон, который создаёт опросы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено взаимодействие с БД&#10;- удаляется и сохраняется id чата при удалении/добавлении бота в группу &#10;&#10;Добавлен крон, который создаёт опросы" />
   </component>
 </project>
