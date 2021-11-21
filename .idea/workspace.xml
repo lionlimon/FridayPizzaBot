@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Добавлен eslint">
+      <change afterPath="$PROJECT_DIR$/BotApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/ChatIdController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/PollController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/StartController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/events.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/lang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll.js" beforeDir="false" afterPath="$PROJECT_DIR$/poll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="20rAvHPyffgsRznLhiZhSuxxopK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

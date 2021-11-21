@@ -12,7 +12,7 @@ export const sequelize = new db.Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   }
 });
 
-export const connect = async () => {
+export const initDb = async () => {
   try {
     await sequelize.authenticate();
     await sequelize.sync();
