@@ -1,2 +1,8 @@
 /node_modules
 /config.js
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/deployment.xml
+/.idea/jsLinters/eslint.xml
+/.idea/codeStyles/Project.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/sshConfigs.xml
