@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Добавлен eslint">
-      <change afterPath="$PROJECT_DIR$/BotApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/ChatIdController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/PollController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/StartController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/commands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/events.js" afterDir="false" />
+    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Упростил gitignore">
+      <change afterPath="$PROJECT_DIR$/controllers/ParsingController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Group.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +51,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,6 +64,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/" />
@@ -122,7 +121,28 @@
       <option name="project" value="LOCAL" />
       <updated>1637316841558</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Поменял архитектуру">
+      <created>1637486731281</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637486731281</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Добалены в игнор лишние файлы&#10;- Создан пример файла конфига">
+      <created>1637487513222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637487513222</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Упростил gitignore">
+      <created>1637487576825</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637487576825</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +165,10 @@
     <MESSAGE value="Добавлено взаимодействие с БД&#10;- удаляется и сохраняется id чата при удалении/добавлении бота в группу &#10;&#10;Добавлен крон, который создаёт опросы" />
     <MESSAGE value="Не большие фиксы в логике работы" />
     <MESSAGE value="Добавлен eslint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен eslint" />
+    <MESSAGE value="Поменял архитектуру" />
+    <MESSAGE value="- Добалены в игнор лишние файлы&#10;- Создан пример файла конфига" />
+    <MESSAGE value="Упростил gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Упростил gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

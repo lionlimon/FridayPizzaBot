@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon --experimental-specifier-resolution=node index.js",
     "start": "node --experimental-specifier-resolution=node index.js",
+    "parsing": "node --experimental-specifier-resolution=node controllers/ParsingController.js",
     "lint": "eslint"
   },
   "author": "Lev Kaplunov <lev.kaplunov@yandex.ru>",
@@ -16,6 +17,7 @@
     "node-schedule": "^2.0.0",
     "node-telegram-bot-api": "^0.54.0",
     "nodemon": "^2.0.15",
+    "osmosis": "^1.1.10",
     "sequelize": "^6.9.0"
   },
   "type": "module",
@@ -25,4 +27,3 @@
     "eslint-plugin-import": "^2.25.3"
   }
 }
-
