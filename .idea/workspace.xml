@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="">
+    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Добавлен eslint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Group.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/lang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poll.js" beforeDir="false" afterPath="$PROJECT_DIR$/poll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +43,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -57,6 +69,11 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="SSH_CONFIG" />
+    <option name="myConnectionId" value="amadoart@luna-host.ru:22 password" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="" />
@@ -66,7 +83,11 @@
       <updated>1636792561841</updated>
       <workItem from="1636792563132" duration="9875000" />
       <workItem from="1637292071896" duration="1087000" />
-      <workItem from="1637296331561" duration="386000" />
+      <workItem from="1637296331561" duration="2061000" />
+      <workItem from="1637317911444" duration="1431000" />
+      <workItem from="1637319631503" duration="323000" />
+      <workItem from="1637475039159" duration="6000" />
+      <workItem from="1637475069840" duration="2071000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил команду в конфигурацию">
       <created>1636805072649</created>
@@ -89,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636878915626</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Не большие фиксы в логике работы">
+      <created>1637316841558</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637316841558</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +138,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил команду в конфигурацию" />
     <MESSAGE value="Добавлено взаимодействие с БД&#10;- удаляется и сохраняется id чата при удалении/добавлении бота в группу &#10;&#10;Добавлен крон, который создаёт опросы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено взаимодействие с БД&#10;- удаляется и сохраняется id чата при удалении/добавлении бота в группу &#10;&#10;Добавлен крон, который создаёт опросы" />
+    <MESSAGE value="Не большие фиксы в логике работы" />
+    <MESSAGE value="Добавлен eslint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен eslint" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
