@@ -6,3 +6,4 @@ export const initCron = () => {
   cron.schedule('30 7 * * 5', PollController.createAllPolls);
   cron.schedule('0 0 * * *', ParsingController.parseProducts);
 };
+//

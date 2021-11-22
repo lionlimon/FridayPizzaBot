@@ -12,6 +12,7 @@
   "author": "Lev Kaplunov <lev.kaplunov@yandex.ru>",
   "license": "ISC",
   "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.7",
     "mysql2": "^2.3.3",
     "node-cron": "^3.0.0",
     "node-schedule": "^2.0.0",
