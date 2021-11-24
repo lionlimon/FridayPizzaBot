@@ -12,3 +12,5 @@ export const appBot = new AppBot({ token: TOKEN });
 
 initCommands();
 initEvents();
+
+appBot.setCommands();

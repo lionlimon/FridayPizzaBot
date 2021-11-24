@@ -39,9 +39,10 @@ export default class AppBot {
    * Регистрация комманды для бота
    * @param {string} command
    * @param {function} callback
+   * @param {string} description
    */
-  command(command, callback) {
-    this._commands.push({ name: command, callback: callback });
+  command(command, callback, description) {
+    this._commands.push({ command: command.replace('(.+)', ''), description });
     this._bot.onText(new RegExp(`\\/${command}`), (callback));
   }
 
@@ -67,5 +68,9 @@ export default class AppBot {
    */
   onBotDeleteFromChat(callback) {
     this._onBotDeletedEvents.push(callback);
+  }
+
+  setCommands() {
+    this._bot.setMyCommands(this._commands);
   }
 }

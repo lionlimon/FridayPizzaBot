@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Добавил парсинг пицц с сайта">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Мелкие фиксы в логике">
+      <change afterPath="$PROJECT_DIR$/controllers/RandomController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/PollController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/PollController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BotApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/BotApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/commands.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,10 @@
       <workItem from="1637475039159" duration="6000" />
       <workItem from="1637475069840" duration="2071000" />
       <workItem from="1637560066868" duration="2236000" />
-      <workItem from="1637562589924" duration="3732000" />
+      <workItem from="1637562589924" duration="17059000" />
+      <workItem from="1637677037884" duration="464000" />
+      <workItem from="1637677514508" duration="72000" />
+      <workItem from="1637677598042" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил команду в конфигурацию">
       <created>1636805072649</created>
@@ -150,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637497225648</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Мелкие фиксы в логике">
+      <created>1637590781151</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637590781151</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +186,8 @@
     <MESSAGE value="- Добалены в игнор лишние файлы&#10;- Создан пример файла конфига" />
     <MESSAGE value="Упростил gitignore" />
     <MESSAGE value="Добавил парсинг пицц с сайта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил парсинг пицц с сайта" />
+    <MESSAGE value="Мелкие фиксы в логике" />
+    <option name="LAST_COMMIT_MESSAGE" value="Мелкие фиксы в логике" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
