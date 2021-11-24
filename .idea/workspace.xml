@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Мелкие фиксы в логике">
-      <change afterPath="$PROJECT_DIR$/controllers/RandomController.js" afterDir="false" />
+    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Добавлен функционал выбора случайного списка пицц">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BotApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/BotApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/RandomController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/RandomController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/lang.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/commands.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,7 @@
       <workItem from="1637562589924" duration="17059000" />
       <workItem from="1637677037884" duration="464000" />
       <workItem from="1637677514508" duration="72000" />
-      <workItem from="1637677598042" duration="507000" />
+      <workItem from="1637677598042" duration="2916000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил команду в конфигурацию">
       <created>1636805072649</created>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637590781151</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Добавлен функционал выбора случайного списка пицц">
+      <created>1637743313372</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637743313372</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +193,8 @@
     <MESSAGE value="Упростил gitignore" />
     <MESSAGE value="Добавил парсинг пицц с сайта" />
     <MESSAGE value="Мелкие фиксы в логике" />
-    <option name="LAST_COMMIT_MESSAGE" value="Мелкие фиксы в логике" />
+    <MESSAGE value="Добавлен функционал выбора случайного списка пицц" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен функционал выбора случайного списка пицц" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
