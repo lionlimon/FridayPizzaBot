@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Добавлен функционал выбора случайного списка пицц">
+    <list default="true" id="1d393657-ac28-4a37-9675-3dd983950c68" name="Default Changelist" comment="Добавил lang файлы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/RandomController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/RandomController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/lang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/PollController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/PollController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poll.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -93,7 +92,12 @@
       <workItem from="1637562589924" duration="17059000" />
       <workItem from="1637677037884" duration="464000" />
       <workItem from="1637677514508" duration="72000" />
-      <workItem from="1637677598042" duration="2916000" />
+      <workItem from="1637677598042" duration="6836000" />
+      <workItem from="1638251202041" duration="297000" />
+      <workItem from="1638260348592" duration="486000" />
+      <workItem from="1638260857533" duration="13923000" />
+      <workItem from="1638580864248" duration="400000" />
+      <workItem from="1639373192415" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил команду в конфигурацию">
       <created>1636805072649</created>
@@ -165,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637743313372</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Добавил lang файлы">
+      <created>1637743889973</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637743889973</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +205,8 @@
     <MESSAGE value="Добавил парсинг пицц с сайта" />
     <MESSAGE value="Мелкие фиксы в логике" />
     <MESSAGE value="Добавлен функционал выбора случайного списка пицц" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен функционал выбора случайного списка пицц" />
+    <MESSAGE value="Добавил lang файлы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил lang файлы" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
